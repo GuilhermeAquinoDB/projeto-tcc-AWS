@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -43,11 +41,17 @@ body {
     background: rgb(9, 0, 66);
     display: flex;
     align-items: center;
+    justify-content: center;
     z-index: 100;
     box-shadow: 0 0 300px var(--shadow-color);
+    height: 10vh;
 }
 .header:houve{
     transition: none;
+}
+
+.header p {
+    cursor: default;
 }
 
 .logo-nome {
@@ -72,7 +76,7 @@ section {
 }
 
 .general-box {
-    height: 100vh;
+    height: 80vh;
 }
 
 .home {
@@ -224,7 +228,7 @@ section {
 
 .footer {
     text-align: center;
-    height: 30px;
+    height: 10vh;
 }
 
 .digitando::after {
